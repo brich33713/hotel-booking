@@ -1,0 +1,17 @@
+Hotel Skeleton Site
+
+This will be an evenly focused full-stack website.
+
+Purpose: To provide users with a quicker way to search for hotels. This will be accomplished through either chat or text. The message will be translated into a database query and respond with a link or links fitting the request.
+
+Typical User: people traveling with not much time or very few preferences
+
+Tech Stack: React-Front End with Python Back End
+
+Database Schema: Database will utilize 3 tables: Users, Bookings, Hotel Data (name, room type, # available, # booked, # rooms)
+
+API: Will probably create own API as sites like Booking.com have minimum site traffic requirements.
+
+Site Features: Chat and Text booking functionality, individual hotel pages, photo gallery. In future iterations: credit card security
+
+User Flow: Users will be able to navigate the site that starts at the home page. Mainly, they will search for hotels by city or features. The main user flow will involve the user visiting and typing in a chat or search. Preferred user flow would be a user sends a text and receives a response with a link. The user can click the link to view the hotel and respond yes or no to book.
